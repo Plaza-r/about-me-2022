@@ -1,1 +1,7 @@
-# about-me-2022
+# Lab 02
+
+## Project Name: About me
+
+## Author: Ricky Plaza
+
+## Lab 03
