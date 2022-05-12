@@ -41,3 +41,45 @@ if(answerFive === 'yes' || answerFive === 'y'){
 } else if(answerFive === 'no' || answerFive === 'n'){
   alert('Carolina, Puerto Rico is the place of my birth');
 }
+// let answserSix = prompt('Choose a number between 1 and 10');
+// if(answerSix <= 5)
+
+
+let correctAnswer;
+for(let i = 0; i < 4; i++){
+  correctAnswer =prompt('Choose a number between 1 and 10');
+  switch (correctAnswer) {
+  case '1':
+  case '2':
+  case '3':
+  case '4':
+    alert('Too low');
+    break;
+  case '6':
+  case '7':
+  case '8':
+  case '9':
+  case '10':
+    alert('Too high');
+    break;
+  case '5':
+    alert('Lucky Guess');
+    break;
+  default:
+    alert('not a number');
+    break;
+  }
+}
+alert('correct answer is 5');
+
+
+for (let g = 0; g < 7; g++){
+  let popularCities = ['miami', 'new york city', 'nashville', 'london', 'boston', 'tokyo', 'paris'];
+  let cities = prompt('Name a famous city').toLowerCase();
+  for(let i =0; i < popularCities.length; i++){
+    console.log(cities);
+    console.log(popularCities[i]);
+    if(cities === popularCities[i])
+      alert('Correct choice');
+  }
+}
